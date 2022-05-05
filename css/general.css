@@ -1,0 +1,28 @@
+*{
+    margin: 0rem;
+    padding: 0;
+    box-sizing: border-box;  
+
+}
+
+:root {
+    --color1: #495F8C;
+    --color2: #395273;
+    --color3: #2C3F59;
+    --color4: #1D2F40;
+    --color5: #0D0D0D;
+    --color6: #ffffff;
+
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+
+}
