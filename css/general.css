@@ -1,7 +1,7 @@
-*{
+* {
     margin: 0rem;
     padding: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 
 }
 
@@ -18,7 +18,8 @@
 
 
 }
-html{
+
+html {
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
@@ -32,6 +33,4 @@ html{
     height: 100vh;
     background: linear-gradient(180deg, #013273 8.85%, #0D0D0D 86.98%);
     background-repeat: no-repeat;
-    
-    
 }
