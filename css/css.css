@@ -6,18 +6,18 @@ header {
 
 header img {
     position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 1850px;
-    top: 10px;
+    width: 40px;
+    height: 40px;
+    left: 1450px;
+    
 }
 
 .barra {
     position: absolute;
-    width: 773px;
-    height: 84px;
-    left: 515px;
-    top: 925px;
+    width: 590px;
+    height: 50px;
+    left: 450px;
+    top: 700px;
     border-radius: 50px;
     background-color: #2C3F59;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -28,10 +28,11 @@ header img {
 }
 
 .ajustes {
-    width: 50px;
-    height: 50px;
-    left: 50px;
-    top: 13px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 30px;
+    top: 1px;
 }
 
 .ajustes :hover {
@@ -40,10 +41,11 @@ header img {
 }
 
 .notas {
-    width: 50px;
-    height: 50px;
-    left: 200px;
-    top: 13px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 150px;
+    top: 1px;
 }
 
 .notas :hover {
@@ -52,10 +54,11 @@ header img {
 }
 
 .camara {
-    width: 50px;
-    height: 50px;
-    left: 500px;
-    top: 13px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 395px;
+    top: 1px;
 
 }
 
@@ -66,11 +69,11 @@ header img {
 
 .notificaciones {
 
-    width: 50px;
-    height: 50px;
-    left: 680px;
-    top: 13px;
-
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 530px;
+    top: 1px;
 }
 
 .notificaciones:hover {
@@ -79,8 +82,8 @@ header img {
 }
 
 .circle {
-    width: 108px;
-    height: 108px;
+    width: 80px;
+    height: 80px;
     left: 325px;
     border-radius: 60px;
     background-color: var(--color7);
@@ -117,24 +120,22 @@ header img {
 
 .superior {
     position: absolute;
-    width: 1768px;
-    height: 368px;
-    left: 82px;
-    top: 126px;
-
+    width: 1300px;
+    height: 250px;
+    margin: 40px 20px 0px 100px;
     background: #1A2940;
     box-shadow: 0px 4px 4px rgba(26, 26, 26, 0.53);
-    border-radius: 66px;
+    border-radius: 40px;
 }
 
 .hora {
     position: absolute;
-    left: 150px;
-    top: 50px;
+    left: 35px;
+    top: 15px;
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 400;
-    font-size: 96px;
+    font-size: 70px;
     line-height: 115px;
     color: #4FADD6;
 }
@@ -143,13 +144,13 @@ header img {
     position: absolute;
     width: 348px;
     height: 36px;
-    left: 160px;
-    top: 140px;
+    left: 48px;
+    top: 95px;
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 36px;
 
     text-transform: uppercase;
@@ -163,13 +164,13 @@ header img {
     position: absolute;
     width: 348px;
     height: 36px;
-    left: 160px;
-    top: 170px;
+    left: 48px;
+    top: 120px;
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 36px;
 
     text-transform: uppercase;
@@ -179,10 +180,10 @@ header img {
 
 .google {
     position: absolute;
-    width: 1163px;
-    height: 68px;
-    left: 300px;
-    top: 250px;
+    width: 1150PX;   
+    height: 40px;
+    left: 50px;
+    top: 180px;
 
     background: #2FC0D7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -191,54 +192,52 @@ header img {
 
 .go {
     position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 15px;
-    top: 2px;
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    
 }
 
 .clima {
     position: absolute;
-    width: 186px;
-    height: 283px;
-    left: 33px;
-    top: 280px;
+    width: 120px;
+    height: 220px;
+    left: 5px;
+    top: 150px;
 
     /* azul bomnir */
 
-    background: #013273;
+    background: #223859;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    opacity: 70%;
+    opacity: 76%;
 
 }
 
 .clima2 {
     position: absolute;
-    width: 70px;
-    height: 394px;
+    width: 50px;
+    height: 240px;
 
-    bottom: 4px;
+    bottom: 10px;
 
 
     /* azul bomnir */
 
-    background: #013273;
-    border-radius: 20px;
-    opacity: 70%;
+    background: #223859;
+    border-radius: 15px;
+    opacity: 76%;
 }
 
 .clima3 {
     position: absolute;
-    width: 70px;
-    height: 394px;
-
-    bottom: px;
-
+    width: 50px;
+    height: 240px;
+   top: 20px;
 
     /* azul bomnir */
 
-    background: #013273;
+    background: #223859;
     border-radius: 20px;
     opacity: 70%;
 }
@@ -246,13 +245,13 @@ header img {
 .clima h1 {
     position: absolute;
 
-    left: 70px;
-    top: 150px;
+    left: 45px;
+    top: 110px;
 
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 40px;
     line-height: 77px;
 
     color: #4FAED6;
@@ -260,19 +259,19 @@ header img {
 
 .nube {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 70px;
+    width: 60px;
+    height: 60px;
+    left: 35px;
     top: 50px;
 
 }
 
 .carpet {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 182px;
-    top: 550px;
+    width: 230px;
+    height: 230px;
+    left: 150px;
+    top: 355px;
 
     background: #1A2940;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -281,10 +280,10 @@ header img {
 
 .carpeta {
     position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 80px;
-    top: 80px;
+    width: 130px;
+    height: 130px;
+    left: 55px;
+    top: 60px;
 }
 
 .carpeta:hover {
@@ -294,24 +293,23 @@ header img {
 
 .barra-blanca {
     box-sizing: border-box;
-
     position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 600px;
-    top: 550px;
+    width: 250px;
+    height: 250px;
+    left: 400px;
+    top: 335px;
     border-radius: 200px;
-    border: 13px solid #FFFFFF;
+    border: 10px solid #FFFFFF;
 }
 
 .barra-celeste {
     box-sizing: border-box;
 
     position: absolute;
-    width: 231.01px;
-    height: 231.01px;
-    left: 635px;
-    top: 580px;
+    width: 200px;
+    height: 200px;
+    left: 425px;
+    top: 360px;
     border-radius: 300px;
     border: 4px solid #2FC0D7;
     transform: rotate(152.25deg)
@@ -319,10 +317,10 @@ header img {
 
 .circulo-music {
     position: absolute;
-    width: 193px;
-    height: 193px;
-    left: 650px;
-    top: 595px;
+    width: 150px;
+    height: 150px;
+    left: 450px;
+    top: 380px;
     border-radius: 300px;
     background: #013273;
     box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.22);
@@ -330,20 +328,20 @@ header img {
 
 .circulo-music img {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 50px;
-    top: 40px;
+    width: 80px;
+    height: 80px;
+    left: 35px;
+    top: 25px;
 
 
 }
 
 .play {
     position: absolute;
-    width: 62px;
-    height: 62px;
-    left: 715px;
-    top: 755px;
+    width: 50px;
+    height: 50px;
+    left: 500px;
+    top: 490px;
     border-radius: 300px;
     background: #2457C5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -353,8 +351,8 @@ header img {
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 20px;
-    top: 20px;
+    left: 15px;
+    top: 15px;
 }
 
 .play img:hover {
@@ -364,10 +362,10 @@ header img {
 
 .notes {
     position: absolute;
-    width: 871px;
-    height: 327px;
-    left: 932px;
-    top: 552px;
+    width: 560px;
+    height: 240px;
+    left: 780px;
+    top: 345px;
 
     background: #1A2940;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
